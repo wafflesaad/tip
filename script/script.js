@@ -36,7 +36,7 @@ calculate.addEventListener("click", function(){
     total.innerHTML = totalPerPersons;
 
     //resetbtn();  
-    buttonclicked = 0;  
+    //buttonclicked = 0;  
 });
 
 
