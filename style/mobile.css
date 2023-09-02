@@ -1,0 +1,55 @@
+@media screen and (max-width: 1000px){
+     .heading{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 0.9rem;
+     }
+     .heading h1{
+        margin: 0;
+     }
+
+     h2{
+        margin-left: 15px;
+     }
+
+     #mainbody{
+        width: 85%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .bill{
+        width: 100%;
+        height: auto;
+     }
+
+     .total{
+        margin-top: 30px;
+        height: auto;
+        width: 100%;
+     }
+
+     .field{
+        width: 100%;
+     }
+/* 
+     .total button{
+        height: 30vh;
+     } */
+
+     .tip{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+     }
+
+     .totaltext1{
+        font-size: 1.2rem;
+     }
+
+     .totalcont{
+        grid-row-gap: 3vh;
+        margin-bottom: 7vh;
+     }
+}
